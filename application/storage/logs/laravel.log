@@ -1,0 +1,23 @@
+[2024-08-20 09:11:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error('Undefined const...', Array)
+#4 D:\\Xamp\\htdocs\\leadport\\application\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(415): App\\Exceptions\\Handler->report(Object(Error))
+#6 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(113): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Error))
+#7 D:\\Xamp\\htdocs\\leadport\\index.php(91): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2024-08-20 09:11:49] laravel.ERROR: Undefined constant "BASE_DIR" {"exception":"[object] (Error(code: 0): Undefined constant \"BASE_DIR\" at D:\\Xamp\\htdocs\\leadport\\application\\config\\dompdf.php:74)
+[stacktrace]
+#0 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(72): require()
+#1 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 D:\\Xamp\\htdocs\\leadport\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 D:\\Xamp\\htdocs\\leadport\\index.php(91): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 {main}
+"} 

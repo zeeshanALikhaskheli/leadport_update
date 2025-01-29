@@ -1,0 +1,32 @@
+$black: #797687;
+$black2: #2b2350;
+$white: #ffffff;
+$text-color: rgba($black2, .70);
+$primary: #6772e5;
+$naviblue: #560BE3;
+$gray: #f7f8fe;
+$border: #E6E6E8;
+$border-2: #CAC3BF;
+$p-icon: #FFF3ED;
+$green: #0BC28B;
+$socila-border: #E5D9D5;
+$mobile-menu: #FBE6DB;
+$mobile-menu-hover: #FCF1EB;
+@mixin footer-bg {
+    background: rgb(227, 86, 11);
+    background: -moz-linear-gradient(to bottom, rgba(227, 86, 11, .09) 0%, rgba(227, 86, 11, 1) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(227, 86, 11, .09) 0%, rgba(227, 86, 11, 1) 100%);
+    background: linear-gradient(to bottom, rgba(227, 86, 11, .09) 0%, rgba(227, 86, 11, 1) 100%);
+    opacity: .10;
+}
+$contrast: #5c65c7;
+$body-background: #fff;
+
+$danger: #ff5c6c;
+$success: #24d2b5;
+$warning: #ff9041;
+$primary: #6772e5;
+$info: #20aee3;
+$light: #e9edf2;
+$themecolor: $info;
+$panel_background: #f9f9f9;

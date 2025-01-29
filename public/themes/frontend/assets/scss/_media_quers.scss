@@ -1,0 +1,43 @@
+/*==== Laptop View ====*/
+
+@mixin Desktop {
+    @media only screen and (min-width: 1200px) and (max-width: 1580px) {
+        @content;
+    }
+}
+
+
+/*==== Ipad View ====*/
+
+@mixin Ipad {
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+
+/*==== Tablet View ====*/
+
+@mixin Tablet {
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @content;
+    }
+}
+
+
+/*==== Mobile View ====*/
+
+@mixin Mobile {
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+
+/*==== Small Mobile View ====*/
+
+@mixin sMobile {
+    @media only screen and (max-width: 479px) {
+        @content;
+    }
+}

@@ -1,0 +1,134 @@
+/* ----------------------------------------------------------
+ * responsiveness
+ * --------------------------------------------------------*/
+ @media screen and (max-width: 1200px) {
+    .corner-image {
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .corner-image {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero_area_image {
+        display: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 90%;
+    }
+}
+
+@include Tablet {
+    body {
+        font-size: 15px !important;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        .about_us_inner {
+            padding: 40px;
+        }
+
+        .featured_box {
+            height: 280px;
+        }
+    }
+}
+
+@include Mobile {
+
+    body {
+        font-size: 15px !important;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        .about_us_inner {
+            padding: 40px;
+        }
+
+        .featured_box {
+            height: 280px;
+        }
+    }
+}
+
+
+
+/* ----------------------------------------------------------
+ * mobile menu
+ * --------------------------------------------------------*/
+@media (max-width: 768px) {
+
+    .mobile-menu-container {
+        display: block;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    //make the meny sticky by default
+    #frontend-top-menu {
+        position: fixed;
+        background-color: #ffffff;
+        -webkit-box-shadow: -1px 6px 8px -9px rgba(143, 143, 143, 1);
+        -moz-box-shadow: -1px 6px 8px -9px rgba(143, 143, 143, 1);
+        box-shadow: -1px 6px 8px -9px rgba(143, 143, 143, 1);
+    }
+}
+
+@media (min-width: 769px) {
+
+    .mobile-menu-container {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .page-wrapper {
+        max-width: 1100px;
+    }
+
+    .pages-wrapper {
+        max-width: 1140px;
+    }
+}

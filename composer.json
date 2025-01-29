@@ -1,0 +1,6 @@
+{
+    "require": {
+        "webklex/php-imap": "*",
+        "webklex/laravel-imap": "*"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "GrowCRM/testmodule",
+    "description": "",
+    "authors": [
+        {
+            "name": "Grow CRM",
+            "email": "support@growcrm.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TestModule\\": ""
+        }
+    }
+}

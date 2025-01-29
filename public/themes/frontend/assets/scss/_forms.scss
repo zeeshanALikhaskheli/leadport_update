@@ -1,0 +1,60 @@
+/*============================================================== 
+Form Material page
+ ============================================================== */
+
+
+/*Material inputs*/
+
+.form-material .form-group {
+  overflow: hidden;
+}
+
+.form-material .form-control {
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom, center calc(100% - 2px);
+  background-repeat: no-repeat;
+  background-size: 0 2px, 100% 1px;
+  padding: 0;
+  transition: background 0s ease-out 0s;
+}
+
+.form-material .form-control,
+.form-material .form-control.focus,
+.form-material .form-control:focus {
+  background-image: linear-gradient($themecolor, $themecolor), linear-gradient($light, $light);
+  border: 0 none;
+  border-radius: 0;
+  box-shadow: none;
+  float: none;
+  padding: 0px 8px;
+}
+
+.form-material .form-control.focus,
+.form-material .form-control:focus {
+  background-size: 100% 2px, 100% 1px;
+  outline: 0 none;
+  transition-duration: 0.3s;
+}
+
+.form-control-line .form-group {
+  overflow: hidden;
+}
+
+.form-control-line .form-control {
+  border: 0px;
+  border-radius: 0px;
+  padding-left: 0px;
+  border-bottom: 1px solid #f6f9ff;
+  &:focus {
+      border-bottom: 1px solid $themecolor;
+  }
+}
+
+
+/*******************
+Form validation error 
+******************/
+
+.error .help-block {
+  color: $danger;
+}

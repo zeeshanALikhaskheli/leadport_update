@@ -1,0 +1,1 @@
+<?php echo cleanEmail($content); ?><?php /**PATH C:\xampp\htdocs\leadport\application\resources\views/landlord/emails/template.blade.php ENDPATH**/ ?>

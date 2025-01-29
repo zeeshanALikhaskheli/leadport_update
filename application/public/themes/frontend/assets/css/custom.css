@@ -1,0 +1,100 @@
+/*Add your customer CSS for the landing page/frontend here*/
+
+@media (min-width: 1200px) {
+    .page-wrapper {
+      max-width: 1100px;
+    }
+    .pages-wrapper {
+      max-width: 1440px;
+    }
+  }
+
+.col-sm-12.col-lg-6.bg-white {
+    padding: 20px;
+}
+
+.pickupRemarks{
+    display: flex !important;
+}
+
+.pickupRemarks{
+    display: flex !important;
+}
+
+.deliveryRemarks{
+    display: flex !important;
+}
+i.sl-icon-trash {
+  color: red;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+}
+input#ChargeableWeightTotal {
+  width: 20%;
+}
+
+  /* toggle button  */
+  
+  .toggle-outer{
+    height: 20px;
+    width: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    margin: 10px 0px;
+    position: relative;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .toggle-outer.checked{
+    background-color: green;
+  }
+  .toggle-outer2{
+    height: 20px;
+    width: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    margin: 10px 0px;
+    position: relative;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .toggle-outer2.checked{
+    background-color: green;
+  }
+  
+  .toggle-inner{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in;
+  }
+  
+  .toggle-outer.checked .toggle-inner{
+    left: 30px;
+  }
+  .toggle-outer2.checked .toggle-inner{
+    left: 30px;
+  }
+  
+  input[type="checkbox"]{
+    display: none;
+  }
+  
+  #toggleLabel{
+    cursor: pointer;
+  }
+  #result{
+    display: none;
+  }
+  #result2{
+    display: none;
+  }
